@@ -1,0 +1,19 @@
+{
+  "name": "model-serving-autoscaling-signal-validator",
+  "version": "1.0.0",
+  "description": "模型服务扩缩容信号校验器：校验 QPS/队列/延迟信号、冷启动窗口与版本切换隔离",
+  "type": "module",
+  "private": true,
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/run-demo.mjs"
+  },
+  "license": "UNLICENSED"
+}
